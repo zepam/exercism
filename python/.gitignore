@@ -1,0 +1,4 @@
+*/__pycache__/*.pyc
+*/.exercism/config.json
+*/.exercism/metadata.json
+

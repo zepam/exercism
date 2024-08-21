@@ -1,0 +1,24 @@
+Your configuration specifies to merge with the ref 'refs/heads/master' from the remote,
+but no such ref was fetched #3132
+
+Open
+jkroll-aws opened this issue on Feb 4 · 0 comments
+Open
+[Known issue] Your configuration specifies to merge with the ref 'refs/heads/master' from the remote, but no such ref was fetched
+#3132
+jkroll-aws opened this issue on Feb 4 · 0 comments
+Comments
+@jkroll-aws
+Collaborator
+jkroll-aws commented on Feb 4
+
+This message occurs now that the default branch has been renamed to "main", but your clone is still attempting to pull from "master".
+
+To resolve this issue, run the following CLI commands in your local cloned repository:
+
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+
+This will allow you to continue to pull the latest commits as usual.
