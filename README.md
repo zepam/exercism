@@ -1,5 +1,6 @@
 https://exercism.org/profiles/zepam
-The programs here are my interpretations of the exercises available on the Exercism website. 
+
+The code in this repo is my solution to the exercises available on the Exercism website. 
 
 They explain themselves much better than I could:
 
