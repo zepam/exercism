@@ -1,7 +1,19 @@
-https://exercism.org/profiles/zepam
+# Exercism Command-line Interface (CLI)
 
-The code in this repo is my solution to the exercises available on the Exercism website. 
+[![CI](https://github.com/exercism/cli/actions/workflows/ci.yml/badge.svg)](https://github.com/exercism/cli/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/exercism/cli)](https://goreportcard.com/report/github.com/exercism/cli)
 
-They explain themselves much better than I could:
+The CLI is the link between the [Exercism][exercism] website and your local work environment. It lets you download exercises and submit your solution to the site.
 
-![image](https://github.com/user-attachments/assets/b7b9c1f5-8794-4074-bec5-2b38e39b63cb)
+This CLI ships as a binary with no additional runtime requirements.
+
+## Installing the CLI
+
+Instructions can be found at [exercism/cli/releases](https://github.com/exercism/cli/releases)
+
+## Contributing
+
+If you wish to help improve the CLI, please see the [Contributing guide][contributing].
+
+[exercism]: http://exercism.io
+[contributing]: /CONTRIBUTING.md
